@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La tecnica ahre</title>
+</head>
+<body>
+    <h1>La pagina picante de Franco</h1>
+    <p>
+        Los datos son:
+    </p>
+    <li>
+    {% for dato in base %}
+        <ul>{{ dato }}</ul>
+    {% endfor %}
+    </li>
+</body>
+</html>
